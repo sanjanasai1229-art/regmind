@@ -167,7 +167,7 @@ regmind/
 
 ## Team
 
-> Built for the Hackathon · 2026
+> JASS · 2026
 
 ---
 
