@@ -32,7 +32,7 @@ Regulatory Sources → RegWatcher → MapMaker → RouteMaster → Departments
 ## Agent Architecture
 
 ## System Architecture
-![Architecture](regmind_agent_architecture.png)
+![Architecture](regmind_agent_architecture.svg)
 
 ## RouteMaster Flow
 ![RouteMaster](routemaster_assignment_flow.png)
