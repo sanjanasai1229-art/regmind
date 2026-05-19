@@ -35,7 +35,7 @@ Regulatory Sources → RegWatcher → MapMaker → RouteMaster → Departments
 ![Architecture](regmind_agent_architecture.svg)
 
 ## RouteMaster Flow
-![RouteMaster](routemaster_assignment_flow.png)
+![RouteMaster](routemaster_assignment_flow.svg)
 
 ### Agent 1 — RegWatcher (Ingestion)
 Continuously monitors RBI, SEBI, IBA, IRDAI, and Basel Committee via RSS feeds, web scraping, and API hooks. Triggers the pipeline the moment a new circular is detected.
