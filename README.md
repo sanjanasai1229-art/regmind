@@ -19,7 +19,7 @@ Banks today process regulatory changes manually. Compliance officers read RBI/SE
 
 ## The Solution
 
-RegMind is a **regulatory nervous system** — five autonomous agents, each with one job, forming a closed loop from circular to verified completion.
+RegMind is a **regulatory nervous system**, five autonomous agents, each with one job, forming a closed loop from circular to verified completion.
 
 ```
 Regulatory Sources → RegWatcher → MapMaker → RouteMaster → Departments
@@ -37,10 +37,10 @@ Regulatory Sources → RegWatcher → MapMaker → RouteMaster → Departments
 ## RouteMaster Flow
 ![RouteMaster](routemaster_assignment_flow.svg)
 
-### Agent 1 — RegWatcher (Ingestion)
+### Agent 1 - RegWatcher (Ingestion)
 Continuously monitors RBI, SEBI, IBA, IRDAI, and Basel Committee via RSS feeds, web scraping, and API hooks. Triggers the pipeline the moment a new circular is detected.
 
-### Agent 2 — MapMaker (Interpretation)
+### Agent 2 - MapMaker (Interpretation)
 Uses an LLM to parse regulatory documents and decompose them into structured **Measurable Action Points (MAPs)**:
 
 | Field | Description |
@@ -50,19 +50,19 @@ Uses an LLM to parse regulatory documents and decompose them into structured **M
 | `by_when` | Deadline derived from circular |
 | `how_verified` | Evidence/proof criteria |
 
-### Agent 3 — RouteMaster (Assignment)
+### Agent 3 - RouteMaster (Assignment)
 Assigns each MAP to the correct department using a 3-layer decision process:
 
-1. **Vector similarity** — MAP text vs department capability profiles (cosine similarity)
-2. **Org-graph rules** — deterministic tag → department mappings (e.g. `AML/KYC` → Compliance)
-3. **LLM arbitration** — for ambiguous cases; reasoning stored for audit trail
+1. **Vector similarity** - MAP text vs department capability profiles (cosine similarity)
+2. **Org-graph rules** - deterministic tag → department mappings (e.g. `AML/KYC` → Compliance)
+3. **LLM arbitration** - for ambiguous cases; reasoning stored for audit trail
 
 Auto-creates tickets in JIRA/ServiceNow with SLA and escalation rules.
 
-### Agent 4 — AuditEye (Validation)
+### Agent 4 - AuditEye (Validation)
 When a department marks a MAP complete, AuditEye autonomously validates the submitted evidence using document AI, cross-referenced against the original MAP criteria. Closes verified MAPs; escalates failures with a reason.
 
-### Agent 5 — RegBoard (Insights)
+### Agent 5 - RegBoard (Insights)
 Real-time executive dashboard showing:
 - Compliance posture across departments
 - Overdue MAPs and SLA breaches
@@ -142,8 +142,8 @@ JIRA/ServiceNow ticket created with SLA
 
 - **~70% reduction** in manual compliance workload
 - **Hours instead of days** for regulatory response time
-- **Full audit trail** — every MAP has a verifiable chain of evidence
-- **Zero missed obligations** — MAP atomicity ensures nothing is lost
+- **Full audit trail** - every MAP has a verifiable chain of evidence
+- **Zero missed obligations** - MAP atomicity ensures nothing is lost
 - Scales across RBI, SEBI, IRDAI, Basel, and IBA simultaneously
 
 ---
@@ -173,7 +173,7 @@ regmind/
 
 ## Team
 
-> JASS · 2026
+> JASS 
 
 ---
 
