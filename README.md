@@ -3,7 +3,7 @@
 
 > **Hackathon Submission** · Theme: Agentic Regulatory Intelligence & Compliance
 
-RegMind is a multi-agent AI system that autonomously ingests, interprets, routes, and validates compliance actions across a bank's departments — turning regulatory circulars into closed, audited action items without human intervention.
+RegMind is a multi-agent AI system that autonomously ingests, interprets, routes, and validates compliance actions across a bank's departments - turning regulatory circulars into closed, audited action items without human intervention.
 
 ---
 
@@ -11,9 +11,9 @@ RegMind is a multi-agent AI system that autonomously ingests, interprets, routes
 
 Banks today process regulatory changes manually. Compliance officers read RBI/SEBI circulars, interpret them, route emails to departments, and chase completion. This is:
 
-- **Slow** — days between a circular dropping and action being assigned
-- **Error-prone** — a missed circular can mean penalties or systemic risk
-- **Unauditable** — no structured trail of who was assigned what and when
+- **Slow** - days between a circular dropping and action being assigned
+- **Error-prone** - a missed circular can mean penalties or systemic risk
+- **Unauditable** - no structured trail of who was assigned what and when
 
 ---
 
